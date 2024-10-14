@@ -1,20 +1,13 @@
-This repository contains a sample plugin package for [yt-dlp](https://github.com/yt-dlp/yt-dlp#readme). 
-
-See [yt-dlp plugins](https://github.com/yt-dlp/yt-dlp#plugins) for more details.
+A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor [plugin](https://github.com/yt-dlp/yt-dlp#plugins) to download videos from runtime.strm.yandex.ru. This service is used by Yandex Weather and some other Yandex services.
 
 
 ## Installation
 
-Requires yt-dlp `2023.01.02` or above.
+Requires yt-dlp `2023.01.01` or above.
 
 You can install this package with pip:
 ```
-python3 -m pip install -U https://github.com/yt-dlp/yt-dlp-sample-plugins/archive/master.zip
+python3 -m pip install git+https://github.com/asaldele1/yt-dlp-YandexSTRMRuntime.git@master
 ```
 
-See [installing yt-dlp plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins) for the other methods this plugin package can be installed.
-
-
-## Development
-
-See the [Plugin Development](https://github.com/yt-dlp/yt-dlp/wiki/Plugin-Development) section of the yt-dlp wiki.
+See [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins) for the many other ways this plugin package can be installed.
